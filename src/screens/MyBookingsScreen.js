@@ -54,12 +54,12 @@ const MyBookingsScreen = ({ navigation }) => {
       <Text style={styles.emptySubtext}>
         Start booking your favorite turfs to see them here!
       </Text>
-      <Button
-        title="Browse Turfs"
-        variant="outline"
-        onPress={() => navigation.navigate('TurfDetails')}
+      <TouchableOpacity
         style={styles.browseButton}
-      />
+        onPress={() => navigation.navigate('TurfDetails')}
+      >
+        <Text style={styles.browseButtonText}>Browse Turfs</Text>
+      </TouchableOpacity>
     </View>
   );
 
@@ -172,7 +172,17 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
   browseButton: {
+    marginTop: 24,
+    backgroundColor: COLORS.primary,
+    paddingVertical: 12,
     paddingHorizontal: 32,
+    borderRadius: 8,
+  },
+  browseButtonText: {
+    color: COLORS.white,
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
   },
 });
 

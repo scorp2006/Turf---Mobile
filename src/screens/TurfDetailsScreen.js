@@ -684,15 +684,6 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
   },
-  mapBlurOverlay: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    height: 80,
-    background: "linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%)",
-    backgroundColor: "rgba(255, 255, 255, 0.7)",
-  },
   mapDirectionButton: {
     position: "absolute",
     bottom: 30,
