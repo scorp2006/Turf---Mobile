@@ -1,0 +1,111 @@
+{
+  "id": "turf-1",
+  "name": "Xciteplay Club",
+  "verified": true,
+  "rating": 4.5,
+  "reviewCount": 15,
+  "totalReviews": 10,
+  "address": "516/A, Katol Rd, KT Nagar, Nagpur, Maharashtra 440013",
+  "phone": "+91 98765 43210",
+  "location": {
+    "latitude": 21.1458,
+    "longitude": 79.0882
+  },
+  "bannerImages": [
+    "https://res.cloudinary.com/darjirb8c/image/upload/v1764147401/jason-charters-IorqsMssQH0-unsplash_1_l5zhw0.jpg",
+    "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=390&h=270&fit=crop",
+    "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=390&h=270&fit=crop",
+    "https://images.unsplash.com/photo-1551958219-acbc608c6377?w=390&h=270&fit=crop",
+    "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=390&h=270&fit=crop"
+  ],
+  "about": "Xciteplay Club is the perfect spot for football and cricket lovers to bring their game.",
+  "aboutFull": "Xciteplay Club is the perfect spot for football and cricket lovers to bring their game. Our state-of-the-art facilities and well-maintained grounds ensure an exceptional playing experience for all skill levels.",
+  "timing": {
+    "weekdays": "06:00 PM - 07:00 PM",
+    "weekends": "05:00 AM - 12:00 AM",
+    "monday": "06:00 PM - 07:00 PM",
+    "tuesday": "06:00 PM - 07:00 PM",
+    "wednesday": "06:00 PM - 07:00 PM",
+    "thursday": "06:00 PM - 07:00 PM",
+    "friday": "06:00 PM - 11:00 PM",
+    "saturday": "05:00 AM - 12:00 AM",
+    "sunday": "05:00 AM - 12:00 AM"
+  },
+  "facilities": [
+    {
+      "id": "1",
+      "name": "Parking",
+      "icon": "car-sport-outline"
+    },
+    {
+      "id": "2",
+      "name": "Water",
+      "icon": "water-outline"
+    },
+    {
+      "id": "3",
+      "name": "Ball",
+      "icon": "football-outline"
+    },
+    {
+      "id": "4",
+      "name": "Night Light",
+      "icon": "bulb-outline"
+    }
+  ],
+  "sports": [
+    {
+      "id": "1",
+      "name": "Foot Ball",
+      "icon": "football-outline"
+    },
+    {
+      "id": "2",
+      "name": "Cricket",
+      "icon": "baseball-outline"
+    },
+    {
+      "id": "3",
+      "name": "Pickle Ball",
+      "icon": "tennisball-outline"
+    }
+  ],
+  "turfType": "Turf - Foot Ball & Cricket",
+  "turfSubtype": "7v7",
+  "offers": [
+    {
+      "id": "1",
+      "code": "FIRSTBOOK",
+      "title": "FIRSTBOOK",
+      "description": "Get a 20% Offer on your first turf booking with Kixar App",
+      "discount": 20,
+      "validTill": "2025-12-31"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userName": "Siva",
+      "userInitials": "S",
+      "rating": 5.0,
+      "comment": "Hand On The Best And The Easiest Way Of Booking Turfs Just In Seconds And Within Your Hand !",
+      "date": "2025-11-22",
+      "daysAgo": "2 days ago"
+    },
+    {
+      "id": "2",
+      "userName": "Kumar",
+      "userInitials": "K",
+      "rating": 5.0,
+      "comment": "Hand On The Best And The Easiest Way Of Booking Turfs Just In Seconds And Within Your Hand !",
+      "date": "2025-11-22",
+      "daysAgo": "2 days ago"
+    }
+  ],
+  "pricePerHour": 1200,
+  "courts": ["Court A", "Court B"],
+  "discount": {
+    "percentage": 15,
+    "endsIn": 110
+  }
+}
